@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+'const' worked on the variables whose values never changed after being declared but 'let' was necessary for variables that WERE reassigned at least once. 'const' was used on the names array which is static throughout the code as well as the arrays that are added to. 'let' was used for the 'i' variables in the for loops as those values change each iteration.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+It was much easier to type out and there was less room for making potential errors. While the template literals are handy, I've come across many examples on CodeWars that were best solved using RegExp methods for manipulating strings, so I feel template literals are more of a stepping stone at this point.
